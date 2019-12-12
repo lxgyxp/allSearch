@@ -8,6 +8,6 @@ public class loginContorller {
 
     @RequestMapping(value = "/login")
     public String login(){
-        return "hi login";
+        return "Hello World!";
     }
 }
