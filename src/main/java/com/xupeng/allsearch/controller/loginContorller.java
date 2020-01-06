@@ -1,13 +1,13 @@
 package com.xupeng.allsearch.controller;
 
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
 
-@RestController
+@Controller
 public class loginContorller {
 
     @RequestMapping(value = "/login")
-    public String login(){
-        return "Hello World!";
+    public String login() {
+        return "/index";
     }
 }
