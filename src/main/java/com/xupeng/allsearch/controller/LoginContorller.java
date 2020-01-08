@@ -17,6 +17,6 @@ public class LoginContorller {
     public String login(Model model) {
         Note note = noteService.selectByTitle("1");
         model.addAttribute("test",note.getNotes());
-        return "/index";
+        return "index";
     }
 }
