@@ -7,4 +7,6 @@ import org.springframework.stereotype.Repository;
 public interface NotesMapper {
 
     Note selectByTitle(String tilte);
+
+    void updateByTitle(Note note);
 }

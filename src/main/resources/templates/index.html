@@ -5,10 +5,9 @@
     <title>Title</title>
 </head>
 <body>
-<form method="post" action="/note-save">
+<form method="post" action="/note/save">
     <div style="width: 90%;float: left">
-        <textarea rows=50px cols=200px></textarea>
-
+        <textarea name="notes" id="123" th:utext="${test}" rows=50px cols=200px></textarea>
     </div>
     <div style="width: 10%;float: left">
         <button>保存</button>

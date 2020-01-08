@@ -14,6 +14,9 @@ public class NoteService {
 
     public Note selectByTitle(String title){
         return notesMapper.selectByTitle(title);
+    }
 
+    public void updateByTitle(Note note){
+        notesMapper.updateByTitle(note);
     }
 }
